@@ -1,26 +1,29 @@
 @echo off
 chcp 65001 >nul
-echo ========================================
-echo  Nahravam subory na GitHub...
-echo ========================================
+echo ======================================
+echo Nahravam subory na GitHub...
+echo ======================================
 
-cd /d "C:\Users\svanc\Desktop\claude\konfigurator\konfigurator"
+cd /d "C:\Users\M\Desktop\claud\konfigurator V3"
 
 if not exist ".git" (
     git init
-    git branch -m main
+    git branch -m master
 )
 
 git remote remove origin 2>nul
-git remote add origin https://github.com/luxusnerohoze-dev/konfigurator-truck-mats.git
+git remote add origin https://github.com/luxusnerohoze-dev/konfigurator.git
 
-git add index.html konfigurator.jsx konfigurator_compiled.js README.md
-git commit -m "Initial commit - konfigurator project"
-git push -u origin main
+git add index.html konfigurator.jsx konfigurator_compiled.js konfigurator_preview.html README.md 91ThIMeaukL.jpg NAHRAJ_NA_GITHUB.bat .gitignore
+git add images/
+
+git commit -m "Update konfigurator - recompiled JSX"
+
+git push -u origin master
 
 echo.
-echo ========================================
-echo  HOTOVO! Subory su na GitHube.
-echo  https://github.com/luxusnerohoze-dev/konfigurator-truck-mats
-echo ========================================
+echo ======================================
+echo HOTOVO! Subory su na GitHube.
+echo https://github.com/luxusnerohoze-dev/konfigurator
+echo ======================================
 pause
