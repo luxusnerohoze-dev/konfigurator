@@ -1,30 +1,21 @@
-# Truck Mat Configurator
+# Konfigurátor – LUXURY CAR DESIGN
 
-Premium truck mat product configurator - a self-contained React application for customizing truck floor mats, door panels, and accessories.
+Interaktívny produktový konfigurátor pre prémiové autokoberce a príslušenstvo do kamionov.
 
-## Features
+## Funkcie
 
-- Material and color selection
-- Carpet edging (lemovanie) customization
-- Custom embroidery (nášivky) with thread color selection
-- Door panel configuration with same-as carpet options
-- Step-by-step accordion-based UI
-- Mobile-responsive design
-- Premium "same-as" CTA components for quick selection
+- Výber vozidla (značka, model, prevodovka, sedadlo)
+- Výber materiálu a farby (ekokoža, alcantara, prešívaná)
+- Lemovanie
+- Nášivky a výšivky s výberom farby nite
+- Výplne dverových panelov
 
-## Tech Stack
+## Spustenie
 
-- React 18 (pre-compiled JSX, self-contained HTML)
-- CSS-in-JS with inline styles
-- No external dependencies beyond React/ReactDOM CDN
+Otvorte `index.html` v prehliadači. Všetko je self-contained — žiadne externé závislosti, funguje offline.
 
-## Usage
+## Technológie
 
-Open `index.html` in a browser. The configurator is fully self-contained.
-
-## Development
-
-Edit `konfigurator.jsx` and compile with:
-```bash
-npx babel --plugins @babel/plugin-transform-react-jsx konfigurator.jsx -o konfigurator_compiled.js
-```
+- React 18
+- JSX (prekompilované cez Babel)
+- Vanilla CSS-in-JS
