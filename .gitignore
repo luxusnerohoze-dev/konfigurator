@@ -1,3 +1,7 @@
 node_modules/
 .DS_Store
 *.log
+*.BACKUP
+_compiled_test.js
+compile_jsx_dryrun.js
+package-lock.json
