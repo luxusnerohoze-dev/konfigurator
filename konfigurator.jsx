@@ -942,7 +942,7 @@ function Configurator() {
           style={{
             position: "relative",
             cursor: "pointer", borderRadius: 10, marginBottom: 16,
-            border: sameAsActive ? "3px solid #4CAF50" : "2px solid #C5A44E",
+            border: sameAsActive ? "3px solid #4CAF50" : "1px dashed #C5A44E",
             background: sameAsActive ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
             padding: "14px 16px",
             display: "flex", alignItems: "center", gap: 12,
@@ -2037,7 +2037,7 @@ function Configurator() {
                     style={{
                       position: "relative",
                       cursor: "pointer", borderRadius: 10, marginBottom: 24,
-                      border: stredSameAsSide ? "3px solid #4CAF50" : "2px solid #C5A44E",
+                      border: stredSameAsSide ? "3px solid #4CAF50" : "1px dashed #C5A44E",
                       background: stredSameAsSide ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                       padding: "14px 16px",
                       display: "flex", alignItems: "center", gap: 12,
@@ -2504,7 +2504,7 @@ function Configurator() {
                     style={{
                       position: "relative",
                       cursor: "pointer", borderRadius: 10, marginBottom: 20,
-                      border: doorSameAsCarpet.material ? "3px solid #4CAF50" : "2px solid #C5A44E",
+                      border: doorSameAsCarpet.material ? "3px solid #4CAF50" : "1px dashed #C5A44E",
                       background: doorSameAsCarpet.material ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                       padding: "14px 16px",
                       display: "flex", alignItems: "center", gap: 12,
@@ -2714,7 +2714,7 @@ function Configurator() {
                         style={{
                           position: "relative",
                           cursor: "pointer", borderRadius: 10, marginBottom: 20,
-                          border: doorSameAsCarpet.lemovanie ? "3px solid #4CAF50" : "2px solid #C5A44E",
+                          border: doorSameAsCarpet.lemovanie ? "3px solid #4CAF50" : "1px dashed #C5A44E",
                           background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                           padding: "14px 16px",
                           display: "flex", alignItems: "center", gap: 12,
@@ -3057,7 +3057,7 @@ function Configurator() {
                         style={{
                           position: "relative",
                           cursor: "pointer", borderRadius: 10, marginBottom: 20,
-                          border: doorSameNasivkaAsCarpet ? "3px solid #4CAF50" : "2px solid #C5A44E",
+                          border: doorSameNasivkaAsCarpet ? "3px solid #4CAF50" : "1px dashed #C5A44E",
                           background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                           padding: "14px 16px",
                           display: "flex", alignItems: "center", gap: 12,
