@@ -985,12 +985,12 @@ function Configurator() {
           {!sameAsActive && (
             <div style={{
               position: "absolute", top: -10, right: 12,
-              background: "linear-gradient(135deg, #C5A44E, #A8893A)",
-              color: "#1a1a1a", fontSize: 11, fontWeight: 900, letterSpacing: 1,
+              background: "linear-gradient(135deg, #FF9800, #F57C00)",
+              color: "#fff", fontSize: 11, fontWeight: 900, letterSpacing: 1,
               padding: "4px 10px", borderRadius: 10,
-              boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+              boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
               textTransform: "uppercase", whiteSpace: "nowrap",
-            }}>★ Najobľúbenejšie</div>
+            }}>⭐ Obľúbená voľba</div>
           )}
           <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
             {sameAsValue.thumb && (
@@ -1590,12 +1590,12 @@ function Configurator() {
             >
               <div style={{
                 position: "absolute", top: -10, right: 12,
-                background: "linear-gradient(135deg, #C5A44E, #A8893A)",
-                color: "#1a1a1a", fontSize: 11, fontWeight: 900, letterSpacing: 1,
+                background: "linear-gradient(135deg, #FF9800, #F57C00)",
+                color: "#fff", fontSize: 11, fontWeight: 900, letterSpacing: 1,
                 padding: "4px 10px", borderRadius: 10,
-                boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                 textTransform: "uppercase", whiteSpace: "nowrap",
-              }}>★ Najobľúbenejšie</div>
+              }}>⭐ Obľúbená voľba</div>
               <div style={{ fontSize: 15, fontWeight: 700, color: "#2E1810", lineHeight: 1.3 }}>
                 {nasivkyPlacement === "boky+stred" && <span style={{ marginRight: 6, color: "#4CAF50" }}>✓</span>}
                 Šofér + spolujazdec + stred
@@ -2447,12 +2447,12 @@ function Configurator() {
             >
               <div style={{
                 position: "absolute", top: -10, right: 12,
-                background: "linear-gradient(135deg, #C5A44E, #A8893A)",
-                color: "#1a1a1a", fontSize: 11, fontWeight: 900, letterSpacing: 1,
+                background: "linear-gradient(135deg, #FF9800, #F57C00)",
+                color: "#fff", fontSize: 11, fontWeight: 900, letterSpacing: 1,
                 padding: "4px 10px", borderRadius: 10,
-                boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                 textTransform: "uppercase", whiteSpace: "nowrap",
-              }}>★ Najobľúbenejšie</div>
+              }}>⭐ Obľúbená voľba</div>
               <div style={{ fontSize: 15, fontWeight: 700, color: "#2E1810", lineHeight: 1.3 }}>
                 {doorPanelChoice === "ano" && <span style={{ marginRight: 6, color: "#4CAF50" }}>✓</span>}
                 Áno, prajem si výplne dverí
