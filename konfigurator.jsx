@@ -1500,7 +1500,7 @@ function Configurator() {
               display: "flex", alignItems: "center", gap: 12,
             }}>
               <span style={{ fontSize: 22 }}>❓</span>
-              <span>Kam si prajete umiestniť nášivky?</span>
+              <span>Prajete si nášivku na koberčeky ?</span>
             </div>
 
             {/* Boky+stred — klasická voľba s badgom "Najobľúbenejšie" */}
@@ -1529,7 +1529,7 @@ function Configurator() {
                 padding: "4px 10px", borderRadius: 10,
                 boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
                 textTransform: "uppercase", whiteSpace: "nowrap",
-              }}>★ Najobľúbenejšie</div>
+              }}>⭐ Obľúbená voľba</div>
               <span>
                 {nasivkyPlacement === "boky+stred" && <span style={{ marginRight: 6 }}>✓</span>}
                 Šofér + spolujazdec + stred
@@ -2054,7 +2054,7 @@ function Configurator() {
                         padding: "4px 10px", borderRadius: 10,
                         boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
-                      }}>★ Najobľúbenejšie</div>
+                      }}>⭐ Obľúbená voľba</div>
                     )}
                     {selectedNasivka.thumb && (
                       <div style={{
@@ -2386,7 +2386,7 @@ function Configurator() {
                 padding: "4px 10px", borderRadius: 10,
                 boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
                 textTransform: "uppercase", whiteSpace: "nowrap",
-              }}>★ Najobľúbenejšie</div>
+              }}>⭐ Obľúbená voľba</div>
               <span>
                 {doorPanelChoice === "ano" && <span style={{ marginRight: 6 }}>✓</span>}
                 Áno, prajem si výplne dverí
@@ -2520,7 +2520,7 @@ function Configurator() {
                         padding: "4px 10px", borderRadius: 10,
                         boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
-                      }}>★ Najobľúbenejšie</div>
+                      }}>⭐ Obľúbená voľba</div>
                     )}
                     {selectedColor.swatch && (
                       <div style={{
@@ -2730,7 +2730,7 @@ function Configurator() {
                             padding: "4px 10px", borderRadius: 10,
                             boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
                             textTransform: "uppercase", whiteSpace: "nowrap",
-                          }}>★ Najobľúbenejšie</div>
+                          }}>⭐ Obľúbená voľba</div>
                         )}
                         {selectedLemovanie.swatch && (
                           <div style={{
@@ -2899,7 +2899,7 @@ function Configurator() {
                         padding: "4px 10px", borderRadius: 10,
                         boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
-                      }}>★ Najobľúbenejšie</div>
+                      }}>⭐ Obľúbená voľba</div>
                       <span>
                         {doorWantsNasivka === true && <span style={{ marginRight: 6 }}>✓</span>}
                         Áno, prajem si nášivky na panely
@@ -3073,7 +3073,7 @@ function Configurator() {
                             padding: "4px 10px", borderRadius: 10,
                             boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
                             textTransform: "uppercase", whiteSpace: "nowrap",
-                          }}>★ Najobľúbenejšie</div>
+                          }}>⭐ Obľúbená voľba</div>
                         )}
                         <div style={{
                           width: 56, height: 56, borderRadius: 8, overflow: "hidden",
