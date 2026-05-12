@@ -1971,6 +1971,7 @@ function Configurator() {
               id="konfig-sub-4c"
               onClick={() => setStep4Sub(step4Sub === "stred" ? "" : "stred")}
               style={{
+                scrollMarginTop: 20,
                 display: "flex", alignItems: "center", gap: 10,
                 padding: "12px 16px", cursor: "pointer", borderRadius: step4Sub === "stred" ? "8px 8px 0 0" : 8,
                 background: selectedStredNasivka && selectedStredNitColor ? "linear-gradient(135deg, #4CAF50, #388E3C)" : "linear-gradient(135deg, #5a7b98, #3d5a70)",
@@ -2446,6 +2447,7 @@ function Configurator() {
               id="konfig-sub-5b"
               onClick={() => setDoorStep5Sub(doorStep5Sub === "material" ? "" : "material")}
               style={{
+                scrollMarginTop: 20,
                 display: "flex", alignItems: "center", gap: 10,
                 padding: "12px 16px", cursor: "pointer",
                 borderRadius: doorStep5Sub === "material" ? "8px 8px 0 0" : 8,
