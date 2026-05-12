@@ -974,7 +974,7 @@ function Configurator() {
           style={{
             position: "relative",
             cursor: "pointer", borderRadius: 10, marginBottom: 16,
-            border: sameAsActive ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+            border: sameAsActive ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
             background: sameAsActive ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
             padding: "14px 16px",
             display: "flex", flexDirection: "column", gap: 12,
@@ -1012,7 +1012,7 @@ function Configurator() {
           <div style={{
             width: "100%", textAlign: "center",
             padding: "12px 0", borderRadius: 10,
-            background: sameAsActive ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
+            background: sameAsActive ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
             color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
             boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
             textTransform: "uppercase",
@@ -1579,7 +1579,7 @@ function Configurator() {
               style={{
                 position: "relative",
                 padding: "16px 18px", cursor: "pointer", borderRadius: 10,
-                border: nasivkyPlacement === "boky+stred" ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+                border: nasivkyPlacement === "boky+stred" ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
                 background: nasivkyPlacement === "boky+stred" ? "#fdf8ec" : "#fff",
                 marginBottom: 12,
                 color: "#333",
@@ -2102,7 +2102,7 @@ function Configurator() {
                     style={{
                       position: "relative",
                       cursor: "pointer", borderRadius: 10, marginBottom: 24,
-                      border: stredSameAsSide ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+                      border: stredSameAsSide ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
                       background: stredSameAsSide ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                       padding: "14px 16px",
                       display: "flex", flexDirection: "column", gap: 12,
@@ -2142,7 +2142,7 @@ function Configurator() {
                     <div style={{
                       width: "100%", textAlign: "center",
                       padding: "12px 0", borderRadius: 10,
-                      background: stredSameAsSide ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
+                      background: stredSameAsSide ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
                       color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                       boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                       textTransform: "uppercase",
@@ -2436,7 +2436,7 @@ function Configurator() {
               style={{
                 position: "relative",
                 padding: "16px 18px", cursor: "pointer", borderRadius: 10,
-                border: doorPanelChoice === "ano" ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+                border: doorPanelChoice === "ano" ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
                 background: doorPanelChoice === "ano" ? "#fdf8ec" : "#fff",
                 marginBottom: 12,
                 color: "#333",
@@ -2569,7 +2569,7 @@ function Configurator() {
                     style={{
                       position: "relative",
                       cursor: "pointer", borderRadius: 10, marginBottom: 20,
-                      border: doorSameAsCarpet.material ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+                      border: doorSameAsCarpet.material ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
                       background: doorSameAsCarpet.material ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                       padding: "14px 16px",
                       display: "flex", flexDirection: "column", gap: 12,
@@ -2609,7 +2609,7 @@ function Configurator() {
                     <div style={{
                       width: "100%", textAlign: "center",
                       padding: "12px 0", borderRadius: 10,
-                      background: doorSameAsCarpet.material ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
+                      background: doorSameAsCarpet.material ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
                       color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                       boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                       textTransform: "uppercase",
@@ -2790,7 +2790,7 @@ function Configurator() {
                         style={{
                           position: "relative",
                           cursor: "pointer", borderRadius: 10, marginBottom: 20,
-                          border: doorSameAsCarpet.lemovanie ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+                          border: doorSameAsCarpet.lemovanie ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
                           background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                           padding: "14px 16px",
                           display: "flex", flexDirection: "column", gap: 12,
@@ -2830,7 +2830,7 @@ function Configurator() {
                         <div style={{
                           width: "100%", textAlign: "center",
                           padding: "12px 0", borderRadius: 10,
-                          background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
+                          background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
                           color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                           boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                           textTransform: "uppercase",
@@ -2979,7 +2979,7 @@ function Configurator() {
                       style={{
                         position: "relative",
                         padding: "16px 18px", cursor: "pointer", borderRadius: 10,
-                        border: doorWantsNasivka === true ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+                        border: doorWantsNasivka === true ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
                         background: doorWantsNasivka === true ? "#fdf8ec" : "#fff",
                         marginBottom: 12,
                         color: "#333",
@@ -3153,7 +3153,7 @@ function Configurator() {
                         style={{
                           position: "relative",
                           cursor: "pointer", borderRadius: 10, marginBottom: 20,
-                          border: doorSameNasivkaAsCarpet ? "3px solid #4CAF50" : "1px dashed #C5A44E",
+                          border: doorSameNasivkaAsCarpet ? "3px solid #4CAF50" : "2px dashed #9e9e9e",
                           background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #e8f5e9, #c8e6c9)" : "#fff",
                           padding: "14px 16px",
                           display: "flex", flexDirection: "column", gap: 12,
@@ -3195,7 +3195,7 @@ function Configurator() {
                         <div style={{
                           width: "100%", textAlign: "center",
                           padding: "12px 0", borderRadius: 10,
-                          background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
+                          background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
                           color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                           boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                           textTransform: "uppercase",
