@@ -3362,17 +3362,19 @@ function Configurator() {
           onMouseOut={(e) => { e.currentTarget.style.background = "linear-gradient(135deg, rgba(197,164,78,0.08), rgba(197,164,78,0.18))"; }}
         >
           <span style={{ display: "flex", alignItems: "center", gap: 8, flex: 1, minWidth: 0 }}>
-            <span className="konfig-suhrn-chevron" style={{ fontSize: 14, color: "#C5A44E", transition: "transform 0.25s", display: "inline-block" }}>▶</span>
-            <span style={{ whiteSpace: "nowrap" }}>SÚHRN OBJEDNÁVKY</span>
-            <span style={{ fontSize: 11, color: "#888", fontWeight: 600, whiteSpace: "nowrap" }}>
-              ({pricing.breakdown.length} {pricing.breakdown.length === 1 ? "položka" : pricing.breakdown.length < 5 ? "položky" : "položiek"})
+            <span className="konfig-suhrn-chevron" style={{ fontSize: 14, color: "#C5A44E", transition: "transform 0.25s", display: "inline-block", flexShrink: 0 }}>▶</span>
+            <span style={{ display: "flex", flexDirection: "column", lineHeight: 1.2, minWidth: 0, overflow: "hidden" }}>
+              <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>SÚHRN OBJEDNÁVKY</span>
+              <span style={{ fontSize: 10, color: "#888", fontWeight: 500, whiteSpace: "nowrap", marginTop: 2 }}>
+                {pricing.breakdown.length} {pricing.breakdown.length === 1 ? "položka" : pricing.breakdown.length < 5 ? "položky" : "položiek"}
+              </span>
             </span>
           </span>
-          <span style={{ display: "flex", alignItems: "center", gap: 10, flexShrink: 0, whiteSpace: "nowrap" }}>
-            <span style={{ fontSize: 16, fontWeight: 900, color: "#C5A44E", marginRight: 2 }}>{pricing.total} €</span>
+          <span style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0, whiteSpace: "nowrap", marginLeft: 8 }}>
+            <span style={{ fontSize: 15, fontWeight: 900, color: "#C5A44E" }}>{pricing.total} €</span>
             <span style={{
-              fontSize: 9, fontWeight: 700, color: "#fff",
-              background: "#C5A44E", padding: "3px 8px", borderRadius: 10,
+              fontSize: 8, fontWeight: 700, color: "#fff",
+              background: "#C5A44E", padding: "3px 7px", borderRadius: 10,
               letterSpacing: 0.5, textTransform: "uppercase",
               flexShrink: 0,
             }}>Detail</span>
