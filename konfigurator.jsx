@@ -1524,10 +1524,10 @@ function Configurator() {
               {/* Badge "NAJOBĽÚBENEJŠIE" v pravom hornom rohu */}
               <div style={{
                 position: "absolute", top: -10, right: 12,
-                background: "linear-gradient(135deg, #C5A44E, #A8893A)",
+                background: "linear-gradient(135deg, #FF9800, #F57C00)",
                 color: "#fff", fontSize: 10, fontWeight: 800, letterSpacing: 1,
                 padding: "4px 10px", borderRadius: 10,
-                boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                 textTransform: "uppercase", whiteSpace: "nowrap",
               }}>⭐ Obľúbená voľba</div>
               <span>
@@ -2049,10 +2049,10 @@ function Configurator() {
                     {!stredSameAsSide && (
                       <div style={{
                         position: "absolute", top: -10, right: 12,
-                        background: "linear-gradient(135deg, #C5A44E, #A8893A)",
+                        background: "linear-gradient(135deg, #FF9800, #F57C00)",
                         color: "#fff", fontSize: 10, fontWeight: 800, letterSpacing: 1,
                         padding: "4px 10px", borderRadius: 10,
-                        boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                        boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
                       }}>⭐ Obľúbená voľba</div>
                     )}
@@ -2381,10 +2381,10 @@ function Configurator() {
             >
               <div style={{
                 position: "absolute", top: -10, right: 12,
-                background: "linear-gradient(135deg, #C5A44E, #A8893A)",
+                background: "linear-gradient(135deg, #FF9800, #F57C00)",
                 color: "#fff", fontSize: 10, fontWeight: 800, letterSpacing: 1,
                 padding: "4px 10px", borderRadius: 10,
-                boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                 textTransform: "uppercase", whiteSpace: "nowrap",
               }}>⭐ Obľúbená voľba</div>
               <span>
@@ -2515,10 +2515,10 @@ function Configurator() {
                     {!doorSameAsCarpet.material && (
                       <div style={{
                         position: "absolute", top: -10, right: 12,
-                        background: "linear-gradient(135deg, #C5A44E, #A8893A)",
+                        background: "linear-gradient(135deg, #FF9800, #F57C00)",
                         color: "#fff", fontSize: 10, fontWeight: 800, letterSpacing: 1,
                         padding: "4px 10px", borderRadius: 10,
-                        boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                        boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
                       }}>⭐ Obľúbená voľba</div>
                     )}
@@ -2725,10 +2725,10 @@ function Configurator() {
                         {!doorSameAsCarpet.lemovanie && (
                           <div style={{
                             position: "absolute", top: -10, right: 12,
-                            background: "linear-gradient(135deg, #C5A44E, #A8893A)",
+                            background: "linear-gradient(135deg, #FF9800, #F57C00)",
                             color: "#fff", fontSize: 10, fontWeight: 800, letterSpacing: 1,
                             padding: "4px 10px", borderRadius: 10,
-                            boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                            boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                             textTransform: "uppercase", whiteSpace: "nowrap",
                           }}>⭐ Obľúbená voľba</div>
                         )}
@@ -2894,10 +2894,10 @@ function Configurator() {
                     >
                       <div style={{
                         position: "absolute", top: -10, right: 12,
-                        background: "linear-gradient(135deg, #C5A44E, #A8893A)",
+                        background: "linear-gradient(135deg, #FF9800, #F57C00)",
                         color: "#fff", fontSize: 10, fontWeight: 800, letterSpacing: 1,
                         padding: "4px 10px", borderRadius: 10,
-                        boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                        boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
                       }}>⭐ Obľúbená voľba</div>
                       <span>
@@ -3068,10 +3068,10 @@ function Configurator() {
                         {!doorSameNasivkaAsCarpet && (
                           <div style={{
                             position: "absolute", top: -10, right: 12,
-                            background: "linear-gradient(135deg, #C5A44E, #A8893A)",
+                            background: "linear-gradient(135deg, #FF9800, #F57C00)",
                             color: "#fff", fontSize: 10, fontWeight: 800, letterSpacing: 1,
                             padding: "4px 10px", borderRadius: 10,
-                            boxShadow: "0 2px 6px rgba(197,164,78,0.35)",
+                            boxShadow: "0 2px 6px rgba(255,152,0,0.4)",
                             textTransform: "uppercase", whiteSpace: "nowrap",
                           }}>⭐ Obľúbená voľba</div>
                         )}
@@ -3446,3 +3446,4 @@ function Configurator() {
 }
 
 
+    
