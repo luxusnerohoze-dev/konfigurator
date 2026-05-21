@@ -2365,7 +2365,7 @@ function Configurator() {
             <div
               onClick={() => {
                 setDoorPanelChoice("ano");
-                setTimeout(() => { setDoorStep5Sub("material"); setTimeout(() => { const el = document.getElementById("konfig-sub-5b"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 250); }, 200);
+                setTimeout(() => { setDoorStep5Sub("material"); setTimeout(() => { const el = document.getElementById("konfig-sub-5b"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 450); }, 200);
               }}
               style={{
                 position: "relative",
@@ -2495,7 +2495,7 @@ function Configurator() {
                       if (newVal) {
                         setDoorMaterial(selectedMaterial);
                         setDoorColor(selectedColor);
-                        setTimeout(() => { setDoorStep5Sub("lemovanie"); setTimeout(() => { const el = document.getElementById("konfig-sub-5c"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 250); }, 300);
+                        setTimeout(() => { setDoorStep5Sub("lemovanie"); setTimeout(() => { const el = document.getElementById("konfig-sub-5c"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 450); }, 300);
                       } else {
                         setDoorMaterial(null);
                         setDoorColor(null);
@@ -2706,7 +2706,7 @@ function Configurator() {
                           setDoorSameAsCarpet(prev => ({ ...prev, lemovanie: newVal }));
                           if (newVal) {
                             setDoorLemovanie(selectedLemovanie);
-                            setTimeout(() => { setDoorStep5Sub("nasivky"); setTimeout(() => { const el = document.getElementById("konfig-sub-5d"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 250); }, 300);
+                            setTimeout(() => { setDoorStep5Sub("nasivky"); setTimeout(() => { const el = document.getElementById("konfig-sub-5d"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 450); }, 300);
                           } else {
                             setDoorLemovanie(null);
                           }
@@ -2879,7 +2879,7 @@ function Configurator() {
                     {/* "Áno, prajem si nášivky" — klasická voľba s badgom "Najobľúbenejšie" */}
                     {doorWantsNasivka !== false && (
                     <div
-                      onClick={() => { setDoorWantsNasivka(true); setTimeout(() => { setDoorStep5Sub("nasivky-detail"); setTimeout(() => { const el = document.getElementById("konfig-sub-5e"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 250); }, 300); }}
+                      onClick={() => { setDoorWantsNasivka(true); setTimeout(() => { setDoorStep5Sub("nasivky-detail"); setTimeout(() => { const el = document.getElementById("konfig-sub-5e"); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); }, 450); }, 300); }}
                       style={{
                         position: "relative",
                         padding: "16px 20px", cursor: "pointer", borderRadius: 10,
