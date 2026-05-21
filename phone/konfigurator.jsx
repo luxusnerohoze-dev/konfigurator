@@ -1012,7 +1012,7 @@ function Configurator() {
           <div style={{
             width: "100%", textAlign: "center",
             padding: "12px 0", borderRadius: 10,
-            background: sameAsActive ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+            background: sameAsActive ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
             color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
             boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
             textTransform: "uppercase",
@@ -2142,7 +2142,7 @@ function Configurator() {
                     <div style={{
                       width: "100%", textAlign: "center",
                       padding: "12px 0", borderRadius: 10,
-                      background: stredSameAsSide ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                      background: stredSameAsSide ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                       color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                       boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                       textTransform: "uppercase",
@@ -2609,7 +2609,7 @@ function Configurator() {
                     <div style={{
                       width: "100%", textAlign: "center",
                       padding: "12px 0", borderRadius: 10,
-                      background: doorSameAsCarpet.material ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                      background: doorSameAsCarpet.material ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                       color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                       boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                       textTransform: "uppercase",
@@ -2830,7 +2830,7 @@ function Configurator() {
                         <div style={{
                           width: "100%", textAlign: "center",
                           padding: "12px 0", borderRadius: 10,
-                          background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                          background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                           color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                           boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                           textTransform: "uppercase",
@@ -3195,7 +3195,7 @@ function Configurator() {
                         <div style={{
                           width: "100%", textAlign: "center",
                           padding: "12px 0", borderRadius: 10,
-                          background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                          background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                           color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5,
                           boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                           textTransform: "uppercase",

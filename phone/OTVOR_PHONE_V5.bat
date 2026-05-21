@@ -16,7 +16,7 @@ if %CHROME_PATH%=="" (
     exit /b 1
 )
 
-start "" %CHROME_PATH% "file:///C:/Users/M/Desktop/claud/konfigurator V5/phone/PHONE_V5_FRESH_194945.html"
+start "" %CHROME_PATH% "file:///C:/Users/M/Desktop/claud/konfigurator V5/phone/NAHLAD_PHONE.html"
 
-echo PHONE V5 konfigurator otvoreny.
+echo PHONE V5 konfigurator otvoreny (NAHLAD_PHONE.html).
 pause

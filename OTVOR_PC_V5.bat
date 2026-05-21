@@ -16,7 +16,7 @@ if %CHROME_PATH%=="" (
     exit /b 1
 )
 
-start "" %CHROME_PATH% "file:///C:/Users/M/Desktop/claud/konfigurator V5/PC_V5_FRESH_194945.html"
+start "" %CHROME_PATH% "file:///C:/Users/M/Desktop/claud/konfigurator V5/NAHLAD_PC.html"
 
-echo PC V5 konfigurator otvoreny.
+echo PC V5 konfigurator otvoreny (NAHLAD_PC.html).
 pause

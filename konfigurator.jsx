@@ -980,7 +980,7 @@ function Configurator() {
             <div style={{
               display: "inline-flex", alignItems: "center", gap: 4,
               padding: "14px 28px", borderRadius: 10,
-              background: sameAsActive ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+              background: sameAsActive ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
               color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5, boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
               textTransform: "uppercase", whiteSpace: "nowrap",
             }}>{sameAsActive ? "↻ Zmeniť" : "Vybrať"}</div>
@@ -2077,7 +2077,7 @@ function Configurator() {
                       <div style={{
                         display: "inline-flex", alignItems: "center", gap: 4,
                         padding: "14px 28px", borderRadius: 10,
-                        background: stredSameAsSide ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                        background: stredSameAsSide ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                         color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5, boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
                       }}>{stredSameAsSide ? "↻ Zmeniť" : "Vybrať"}</div>
@@ -2543,7 +2543,7 @@ function Configurator() {
                       <div style={{
                         display: "inline-flex", alignItems: "center", gap: 4,
                         padding: "14px 28px", borderRadius: 10,
-                        background: doorSameAsCarpet.material ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                        background: doorSameAsCarpet.material ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                         color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5, boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                         textTransform: "uppercase", whiteSpace: "nowrap",
                       }}>{doorSameAsCarpet.material ? "↻ Zmeniť" : "Vybrať"}</div>
@@ -2753,7 +2753,7 @@ function Configurator() {
                           <div style={{
                             display: "inline-flex", alignItems: "center", gap: 4,
                             padding: "14px 28px", borderRadius: 10,
-                            background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                            background: doorSameAsCarpet.lemovanie ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                             color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5, boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                             textTransform: "uppercase", whiteSpace: "nowrap",
                           }}>{doorSameAsCarpet.lemovanie ? "↻ Zmeniť" : "Vybrať"}</div>
@@ -3098,7 +3098,7 @@ function Configurator() {
                           <div style={{
                             display: "inline-flex", alignItems: "center", gap: 4,
                             padding: "14px 28px", borderRadius: 10,
-                            background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #C5A44E, #A8893A)",
+                            background: doorSameNasivkaAsCarpet ? "linear-gradient(135deg, #2E7D32, #1B5E20)" : "linear-gradient(135deg, #4CAF50, #388E3C)",
                             color: "#fff", fontSize: 15, fontWeight: 800, letterSpacing: 0.5, boxShadow: "0 4px 14px rgba(76,175,80,0.4)",
                             textTransform: "uppercase", whiteSpace: "nowrap",
                           }}>{doorSameNasivkaAsCarpet ? "↻ Zmeniť" : "Vybrať"}</div>

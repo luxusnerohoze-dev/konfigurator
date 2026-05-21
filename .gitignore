@@ -5,3 +5,20 @@ node_modules/
 _compiled_test.js
 compile_jsx_dryrun.js
 package-lock.json
+
+# Fresh cache-bust kopie konfigurator_preview.html
+PC_FIXED_*.html
+PHONE_FIXED_*.html
+NOVY*.html
+TEST_NOCACHE*.html
+KONFIG_NAJNOVSI.html
+KONFIG_PC_NAJNOVSI.html
+PC_FRESH_*.html
+PC_V5_FRESH_*.html
+PHONE_V5_FRESH_*.html
+
+# Backupy
+*.bak-*
+
+# .git tmp
+.git/index.lock
