@@ -1,0 +1,25 @@
+{
+  "name": "konfigurator-v4",
+  "version": "1.0.0",
+  "description": "Interaktívny produktový konfigurátor pre prémiové autokoberce a príslušenstvo do kamionov.",
+  "main": "konfigurator_compiled.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxusnerohoze-dev/konfigurator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luxusnerohoze-dev/konfigurator/issues"
+  },
+  "homepage": "https://github.com/luxusnerohoze-dev/konfigurator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@babel/preset-react": "^7.28.5"
+  }
+}

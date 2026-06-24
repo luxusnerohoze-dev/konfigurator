@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+*.exe
+.env
+.env.*
+config.json
+config.local.json
+*.local.json
+.DS_Store
+Thumbs.db
+*.log
